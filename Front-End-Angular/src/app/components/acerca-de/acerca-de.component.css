@@ -1,0 +1,108 @@
+.row {
+    padding: 40px;
+}
+div {
+    background-color: lightskyblue;
+    text-align: center;
+    /* align-items: center; */
+}
+h1 {
+    margin-bottom: 40px;
+}
+
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:250px;
+    }
+    #nombreYprof{
+        margin-left: -100px;
+    }
+}
+@media (min-width: 768px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:270px;
+    }
+    #nombreYprof{
+        margin-left: -120px;
+    }
+}
+@media (min-width: 992px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 330px;
+    }
+    #nombreYprof{
+        margin-left: -150px;
+    }
+}
+@media (min-width: 1200px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 360px;
+    }
+    #nombreYprof{
+        margin-left: -180px;
+    }
+}
+@media (min-width: 1400px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:400px;
+    }
+    #nombreYprof{
+        margin-left: -210px;
+    }
+}
+@media (min-width: 1640px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:450px;
+    }
+    #nombreYprof{
+        margin-left: -250px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 34%;
+        top: 530px;
+    }
+    
+}
+
+
+/*etiqueta nombre*/
+#nombreYprof {
+    margin-top: 5%;
+}

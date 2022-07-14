@@ -1,0 +1,12 @@
+.row {
+    padding: 40px 40px 0px 40px;
+}
+div {
+    background-color: lightskyblue;
+}
+h2, h3 {
+    display: inline;
+}
+h1 {
+    margin-bottom: 40px;
+}
